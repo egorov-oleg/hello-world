@@ -6,10 +6,8 @@ while a!=0:
     digits=digits+1
 i=1
 right=0
-left=0
 while i<=digits//2:
-    right=right*10
-    right=right+n%10
+    right=right*10+n%10
     n=n//10
     i=i+1
 if digits%2==1:
